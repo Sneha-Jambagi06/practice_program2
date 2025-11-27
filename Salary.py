@@ -1,10 +1,10 @@
 import sys
 if len(sys.argv)==2:
   script_name=sys.argv[0]
-  salary=sys.argv
+  salary=float(sys.argv[1])
 else:
   script_name=sys.argv[0]
-  salary=25,000
+  salary=25000
   bonus=salary*0.10
   total_salary=salary+bonus
   print("Salary:",salary)
